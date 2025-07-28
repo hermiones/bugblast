@@ -1,5 +1,5 @@
 import argparse
-from fuzzers.sql_injection import run_sql_fuzz
+from fuzzers.sql_injections import run_sql_fuzz
 
 def main():
     parser = argparse.ArgumentParser(description="BugBlast API Fuzzer")
